@@ -64,20 +64,19 @@
     font-style: italic;
   }
   .header-image-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 16px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto 20px;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
   }
-
+  
   .hero-image {
-    width: 140px;
-    height: 140px;
+    width: 100%;
+    height: auto;
+    display: block;
     object-fit: cover;
-    border-radius: 50%; /* Creates a circular frame */
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); /* Soft, elegant shadow */
-    border: 3px solid #e0e0e0; /* Subtle outer border */
-    transition: transform 0.3s ease;
   }
   
   .hero-image:hover {
